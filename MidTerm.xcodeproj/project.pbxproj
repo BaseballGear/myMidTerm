@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		815EA5771BE2DF4B004F6753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815EA5761BE2DF4B004F6753 /* AppDelegate.swift */; };
+		815EA5791BE2DF4B004F6753 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815EA5781BE2DF4B004F6753 /* ViewController.swift */; };
+		815EA57C1BE2DF4B004F6753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815EA57A1BE2DF4B004F6753 /* Main.storyboard */; };
+		815EA57E1BE2DF4B004F6753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815EA57D1BE2DF4B004F6753 /* Assets.xcassets */; };
+		815EA5811BE2DF4B004F6753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815EA57F1BE2DF4B004F6753 /* LaunchScreen.storyboard */; };
+		815EA58C1BE2DF4B004F6753 /* MidTermTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815EA58B1BE2DF4B004F6753 /* MidTermTests.swift */; };
+		815EA5971BE2DF4B004F6753 /* MidTermUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815EA5961BE2DF4B004F6753 /* MidTermUITests.swift */; };
+		815EA59C1BE2DF4B004F6753 /* MidTerm WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 815EA59B1BE2DF4B004F6753 /* MidTerm WatchKit App.app */; };
+		815EA5A21BE2DF4B004F6753 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815EA5A01BE2DF4B004F6753 /* Interface.storyboard */; };
+		815EA5A41BE2DF4B004F6753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815EA5A31BE2DF4B004F6753 /* Assets.xcassets */; };
+		815EA5AB1BE2DF4B004F6753 /* MidTerm WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 815EA5AA1BE2DF4B004F6753 /* MidTerm WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		815EA5B21BE2DF4B004F6753 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815EA5B11BE2DF4B004F6753 /* InterfaceController.swift */; };
+		815EA5B41BE2DF4B004F6753 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815EA5B31BE2DF4B004F6753 /* ExtensionDelegate.swift */; };
+		815EA5B61BE2DF4B004F6753 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815EA5B51BE2DF4B004F6753 /* NotificationController.swift */; };
+		815EA5B81BE2DF4B004F6753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815EA5B71BE2DF4B004F6753 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		815EA5881BE2DF4B004F6753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 815EA56B1BE2DF4A004F6753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 815EA5721BE2DF4A004F6753;
+			remoteInfo = MidTerm;
+		};
+		815EA5931BE2DF4B004F6753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 815EA56B1BE2DF4A004F6753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 815EA5721BE2DF4A004F6753;
+			remoteInfo = MidTerm;
+		};
+		815EA59D1BE2DF4B004F6753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 815EA56B1BE2DF4A004F6753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 815EA59A1BE2DF4B004F6753;
+			remoteInfo = "MidTerm WatchKit App";
+		};
+		815EA5AC1BE2DF4B004F6753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 815EA56B1BE2DF4A004F6753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 815EA5A91BE2DF4B004F6753;
+			remoteInfo = "MidTerm WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		815EA5BF1BE2DF4B004F6753 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				815EA5AB1BE2DF4B004F6753 /* MidTerm WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815EA5C31BE2DF4B004F6753 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				815EA59C1BE2DF4B004F6753 /* MidTerm WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		815EA5731BE2DF4B004F6753 /* MidTerm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidTerm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		815EA5761BE2DF4B004F6753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		815EA5781BE2DF4B004F6753 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		815EA57B1BE2DF4B004F6753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		815EA57D1BE2DF4B004F6753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		815EA5801BE2DF4B004F6753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		815EA5821BE2DF4B004F6753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815EA5871BE2DF4B004F6753 /* MidTermTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidTermTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		815EA58B1BE2DF4B004F6753 /* MidTermTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidTermTests.swift; sourceTree = "<group>"; };
+		815EA58D1BE2DF4B004F6753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815EA5921BE2DF4B004F6753 /* MidTermUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidTermUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		815EA5961BE2DF4B004F6753 /* MidTermUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidTermUITests.swift; sourceTree = "<group>"; };
+		815EA5981BE2DF4B004F6753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815EA59B1BE2DF4B004F6753 /* MidTerm WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MidTerm WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		815EA5A11BE2DF4B004F6753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		815EA5A31BE2DF4B004F6753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		815EA5A51BE2DF4B004F6753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815EA5AA1BE2DF4B004F6753 /* MidTerm WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MidTerm WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		815EA5B01BE2DF4B004F6753 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		815EA5B11BE2DF4B004F6753 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		815EA5B31BE2DF4B004F6753 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		815EA5B51BE2DF4B004F6753 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		815EA5B71BE2DF4B004F6753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		815EA5B91BE2DF4B004F6753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		815EA5701BE2DF4A004F6753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815EA5841BE2DF4B004F6753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815EA58F1BE2DF4B004F6753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815EA5A71BE2DF4B004F6753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		815EA56A1BE2DF4A004F6753 = {
+			isa = PBXGroup;
+			children = (
+				815EA5751BE2DF4B004F6753 /* MidTerm */,
+				815EA58A1BE2DF4B004F6753 /* MidTermTests */,
+				815EA5951BE2DF4B004F6753 /* MidTermUITests */,
+				815EA59F1BE2DF4B004F6753 /* MidTerm WatchKit App */,
+				815EA5AE1BE2DF4B004F6753 /* MidTerm WatchKit Extension */,
+				815EA5741BE2DF4B004F6753 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		815EA5741BE2DF4B004F6753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				815EA5731BE2DF4B004F6753 /* MidTerm.app */,
+				815EA5871BE2DF4B004F6753 /* MidTermTests.xctest */,
+				815EA5921BE2DF4B004F6753 /* MidTermUITests.xctest */,
+				815EA59B1BE2DF4B004F6753 /* MidTerm WatchKit App.app */,
+				815EA5AA1BE2DF4B004F6753 /* MidTerm WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		815EA5751BE2DF4B004F6753 /* MidTerm */ = {
+			isa = PBXGroup;
+			children = (
+				815EA5761BE2DF4B004F6753 /* AppDelegate.swift */,
+				815EA5781BE2DF4B004F6753 /* ViewController.swift */,
+				815EA57A1BE2DF4B004F6753 /* Main.storyboard */,
+				815EA57D1BE2DF4B004F6753 /* Assets.xcassets */,
+				815EA57F1BE2DF4B004F6753 /* LaunchScreen.storyboard */,
+				815EA5821BE2DF4B004F6753 /* Info.plist */,
+			);
+			path = MidTerm;
+			sourceTree = "<group>";
+		};
+		815EA58A1BE2DF4B004F6753 /* MidTermTests */ = {
+			isa = PBXGroup;
+			children = (
+				815EA58B1BE2DF4B004F6753 /* MidTermTests.swift */,
+				815EA58D1BE2DF4B004F6753 /* Info.plist */,
+			);
+			path = MidTermTests;
+			sourceTree = "<group>";
+		};
+		815EA5951BE2DF4B004F6753 /* MidTermUITests */ = {
+			isa = PBXGroup;
+			children = (
+				815EA5961BE2DF4B004F6753 /* MidTermUITests.swift */,
+				815EA5981BE2DF4B004F6753 /* Info.plist */,
+			);
+			path = MidTermUITests;
+			sourceTree = "<group>";
+		};
+		815EA59F1BE2DF4B004F6753 /* MidTerm WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				815EA5A01BE2DF4B004F6753 /* Interface.storyboard */,
+				815EA5A31BE2DF4B004F6753 /* Assets.xcassets */,
+				815EA5A51BE2DF4B004F6753 /* Info.plist */,
+			);
+			path = "MidTerm WatchKit App";
+			sourceTree = "<group>";
+		};
+		815EA5AE1BE2DF4B004F6753 /* MidTerm WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				815EA5B11BE2DF4B004F6753 /* InterfaceController.swift */,
+				815EA5B31BE2DF4B004F6753 /* ExtensionDelegate.swift */,
+				815EA5B51BE2DF4B004F6753 /* NotificationController.swift */,
+				815EA5B71BE2DF4B004F6753 /* Assets.xcassets */,
+				815EA5B91BE2DF4B004F6753 /* Info.plist */,
+				815EA5AF1BE2DF4B004F6753 /* Supporting Files */,
+			);
+			path = "MidTerm WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		815EA5AF1BE2DF4B004F6753 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				815EA5B01BE2DF4B004F6753 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		815EA5721BE2DF4A004F6753 /* MidTerm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815EA5C41BE2DF4B004F6753 /* Build configuration list for PBXNativeTarget "MidTerm" */;
+			buildPhases = (
+				815EA56F1BE2DF4A004F6753 /* Sources */,
+				815EA5701BE2DF4A004F6753 /* Frameworks */,
+				815EA5711BE2DF4A004F6753 /* Resources */,
+				815EA5C31BE2DF4B004F6753 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				815EA59E1BE2DF4B004F6753 /* PBXTargetDependency */,
+			);
+			name = MidTerm;
+			productName = MidTerm;
+			productReference = 815EA5731BE2DF4B004F6753 /* MidTerm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		815EA5861BE2DF4B004F6753 /* MidTermTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815EA5C71BE2DF4B004F6753 /* Build configuration list for PBXNativeTarget "MidTermTests" */;
+			buildPhases = (
+				815EA5831BE2DF4B004F6753 /* Sources */,
+				815EA5841BE2DF4B004F6753 /* Frameworks */,
+				815EA5851BE2DF4B004F6753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				815EA5891BE2DF4B004F6753 /* PBXTargetDependency */,
+			);
+			name = MidTermTests;
+			productName = MidTermTests;
+			productReference = 815EA5871BE2DF4B004F6753 /* MidTermTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		815EA5911BE2DF4B004F6753 /* MidTermUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815EA5CA1BE2DF4B004F6753 /* Build configuration list for PBXNativeTarget "MidTermUITests" */;
+			buildPhases = (
+				815EA58E1BE2DF4B004F6753 /* Sources */,
+				815EA58F1BE2DF4B004F6753 /* Frameworks */,
+				815EA5901BE2DF4B004F6753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				815EA5941BE2DF4B004F6753 /* PBXTargetDependency */,
+			);
+			name = MidTermUITests;
+			productName = MidTermUITests;
+			productReference = 815EA5921BE2DF4B004F6753 /* MidTermUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		815EA59A1BE2DF4B004F6753 /* MidTerm WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815EA5C01BE2DF4B004F6753 /* Build configuration list for PBXNativeTarget "MidTerm WatchKit App" */;
+			buildPhases = (
+				815EA5991BE2DF4B004F6753 /* Resources */,
+				815EA5BF1BE2DF4B004F6753 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				815EA5AD1BE2DF4B004F6753 /* PBXTargetDependency */,
+			);
+			name = "MidTerm WatchKit App";
+			productName = "MidTerm WatchKit App";
+			productReference = 815EA59B1BE2DF4B004F6753 /* MidTerm WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		815EA5A91BE2DF4B004F6753 /* MidTerm WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815EA5BC1BE2DF4B004F6753 /* Build configuration list for PBXNativeTarget "MidTerm WatchKit Extension" */;
+			buildPhases = (
+				815EA5A61BE2DF4B004F6753 /* Sources */,
+				815EA5A71BE2DF4B004F6753 /* Frameworks */,
+				815EA5A81BE2DF4B004F6753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MidTerm WatchKit Extension";
+			productName = "MidTerm WatchKit Extension";
+			productReference = 815EA5AA1BE2DF4B004F6753 /* MidTerm WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		815EA56B1BE2DF4A004F6753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Yenter, Nicholas A";
+				TargetAttributes = {
+					815EA5721BE2DF4A004F6753 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					815EA5861BE2DF4B004F6753 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 815EA5721BE2DF4A004F6753;
+					};
+					815EA5911BE2DF4B004F6753 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 815EA5721BE2DF4A004F6753;
+					};
+					815EA59A1BE2DF4B004F6753 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					815EA5A91BE2DF4B004F6753 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 815EA56E1BE2DF4A004F6753 /* Build configuration list for PBXProject "MidTerm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 815EA56A1BE2DF4A004F6753;
+			productRefGroup = 815EA5741BE2DF4B004F6753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				815EA5721BE2DF4A004F6753 /* MidTerm */,
+				815EA5861BE2DF4B004F6753 /* MidTermTests */,
+				815EA5911BE2DF4B004F6753 /* MidTermUITests */,
+				815EA59A1BE2DF4B004F6753 /* MidTerm WatchKit App */,
+				815EA5A91BE2DF4B004F6753 /* MidTerm WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		815EA5711BE2DF4A004F6753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815EA5811BE2DF4B004F6753 /* LaunchScreen.storyboard in Resources */,
+				815EA57E1BE2DF4B004F6753 /* Assets.xcassets in Resources */,
+				815EA57C1BE2DF4B004F6753 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815EA5851BE2DF4B004F6753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815EA5901BE2DF4B004F6753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815EA5991BE2DF4B004F6753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815EA5A41BE2DF4B004F6753 /* Assets.xcassets in Resources */,
+				815EA5A21BE2DF4B004F6753 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815EA5A81BE2DF4B004F6753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815EA5B81BE2DF4B004F6753 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		815EA56F1BE2DF4A004F6753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815EA5791BE2DF4B004F6753 /* ViewController.swift in Sources */,
+				815EA5771BE2DF4B004F6753 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815EA5831BE2DF4B004F6753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815EA58C1BE2DF4B004F6753 /* MidTermTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815EA58E1BE2DF4B004F6753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815EA5971BE2DF4B004F6753 /* MidTermUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815EA5A61BE2DF4B004F6753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815EA5B61BE2DF4B004F6753 /* NotificationController.swift in Sources */,
+				815EA5B41BE2DF4B004F6753 /* ExtensionDelegate.swift in Sources */,
+				815EA5B21BE2DF4B004F6753 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		815EA5891BE2DF4B004F6753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 815EA5721BE2DF4A004F6753 /* MidTerm */;
+			targetProxy = 815EA5881BE2DF4B004F6753 /* PBXContainerItemProxy */;
+		};
+		815EA5941BE2DF4B004F6753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 815EA5721BE2DF4A004F6753 /* MidTerm */;
+			targetProxy = 815EA5931BE2DF4B004F6753 /* PBXContainerItemProxy */;
+		};
+		815EA59E1BE2DF4B004F6753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 815EA59A1BE2DF4B004F6753 /* MidTerm WatchKit App */;
+			targetProxy = 815EA59D1BE2DF4B004F6753 /* PBXContainerItemProxy */;
+		};
+		815EA5AD1BE2DF4B004F6753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 815EA5A91BE2DF4B004F6753 /* MidTerm WatchKit Extension */;
+			targetProxy = 815EA5AC1BE2DF4B004F6753 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		815EA57A1BE2DF4B004F6753 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				815EA57B1BE2DF4B004F6753 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		815EA57F1BE2DF4B004F6753 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				815EA5801BE2DF4B004F6753 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		815EA5A01BE2DF4B004F6753 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				815EA5A11BE2DF4B004F6753 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		815EA5BA1BE2DF4B004F6753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		815EA5BB1BE2DF4B004F6753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		815EA5BD1BE2DF4B004F6753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MidTerm WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CSC390.MidTerm.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		815EA5BE1BE2DF4B004F6753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MidTerm WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CSC390.MidTerm.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		815EA5C11BE2DF4B004F6753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = MidTerm_WatchKit_Extension;
+				INFOPLIST_FILE = "MidTerm WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = CSC390.MidTerm.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		815EA5C21BE2DF4B004F6753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = MidTerm_WatchKit_Extension;
+				INFOPLIST_FILE = "MidTerm WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = CSC390.MidTerm.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		815EA5C51BE2DF4B004F6753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MidTerm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CSC390.MidTerm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		815EA5C61BE2DF4B004F6753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MidTerm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CSC390.MidTerm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		815EA5C81BE2DF4B004F6753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MidTermTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CSC390.MidTermTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MidTerm.app/MidTerm";
+			};
+			name = Debug;
+		};
+		815EA5C91BE2DF4B004F6753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MidTermTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CSC390.MidTermTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MidTerm.app/MidTerm";
+			};
+			name = Release;
+		};
+		815EA5CB1BE2DF4B004F6753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MidTermUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CSC390.MidTermUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MidTerm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		815EA5CC1BE2DF4B004F6753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MidTermUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CSC390.MidTermUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MidTerm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		815EA56E1BE2DF4A004F6753 /* Build configuration list for PBXProject "MidTerm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815EA5BA1BE2DF4B004F6753 /* Debug */,
+				815EA5BB1BE2DF4B004F6753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815EA5BC1BE2DF4B004F6753 /* Build configuration list for PBXNativeTarget "MidTerm WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815EA5BD1BE2DF4B004F6753 /* Debug */,
+				815EA5BE1BE2DF4B004F6753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		815EA5C01BE2DF4B004F6753 /* Build configuration list for PBXNativeTarget "MidTerm WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815EA5C11BE2DF4B004F6753 /* Debug */,
+				815EA5C21BE2DF4B004F6753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		815EA5C41BE2DF4B004F6753 /* Build configuration list for PBXNativeTarget "MidTerm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815EA5C51BE2DF4B004F6753 /* Debug */,
+				815EA5C61BE2DF4B004F6753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		815EA5C71BE2DF4B004F6753 /* Build configuration list for PBXNativeTarget "MidTermTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815EA5C81BE2DF4B004F6753 /* Debug */,
+				815EA5C91BE2DF4B004F6753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		815EA5CA1BE2DF4B004F6753 /* Build configuration list for PBXNativeTarget "MidTermUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815EA5CB1BE2DF4B004F6753 /* Debug */,
+				815EA5CC1BE2DF4B004F6753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 815EA56B1BE2DF4A004F6753 /* Project object */;
+}
