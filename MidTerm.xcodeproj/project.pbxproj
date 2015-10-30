@@ -22,6 +22,8 @@
 		815EA5B41BE2DF4B004F6753 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815EA5B31BE2DF4B004F6753 /* ExtensionDelegate.swift */; };
 		815EA5B61BE2DF4B004F6753 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815EA5B51BE2DF4B004F6753 /* NotificationController.swift */; };
 		815EA5B81BE2DF4B004F6753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815EA5B71BE2DF4B004F6753 /* Assets.xcassets */; };
+		815EA5D01BE2E047004F6753 /* speedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815EA5CF1BE2E047004F6753 /* speedResult.swift */; settings = {ASSET_TAGS = (); }; };
+		815EA5D21BE2E1CE004F6753 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815EA5D11BE2E1CE004F6753 /* Singleton.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,8 @@
 		815EA5B51BE2DF4B004F6753 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		815EA5B71BE2DF4B004F6753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		815EA5B91BE2DF4B004F6753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815EA5CF1BE2E047004F6753 /* speedResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = speedResult.swift; sourceTree = "<group>"; };
+		815EA5D11BE2E1CE004F6753 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +217,8 @@
 				815EA5B71BE2DF4B004F6753 /* Assets.xcassets */,
 				815EA5B91BE2DF4B004F6753 /* Info.plist */,
 				815EA5AF1BE2DF4B004F6753 /* Supporting Files */,
+				815EA5CF1BE2E047004F6753 /* speedResult.swift */,
+				815EA5D11BE2E1CE004F6753 /* Singleton.swift */,
 			);
 			path = "MidTerm WatchKit Extension";
 			sourceTree = "<group>";
@@ -441,8 +447,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815EA5D01BE2E047004F6753 /* speedResult.swift in Sources */,
 				815EA5B61BE2DF4B004F6753 /* NotificationController.swift in Sources */,
 				815EA5B41BE2DF4B004F6753 /* ExtensionDelegate.swift in Sources */,
+				815EA5D21BE2E1CE004F6753 /* Singleton.swift in Sources */,
 				815EA5B21BE2DF4B004F6753 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

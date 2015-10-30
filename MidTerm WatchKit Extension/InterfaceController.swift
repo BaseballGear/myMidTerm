@@ -12,15 +12,30 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
-    override func awakeWithContext(context: AnyObject?) {
+    @IBOutlet var theSpeed: WKInterfacePicker!
+    
+    var j = 0
+    override func awakeWithContext(context: AnyObject?)
+    {
         super.awakeWithContext(context)
         
-        // Configure interface objects here.
-    }
+        var thePickerItems = [WKPickerItem]()
+        for(var i = 0; i < 1000; i++)
+        {
+            thePickerItems.append(WKPickerItem())
+            thePickerItems[i].title = "\(i + 1)"
+        }
+       self.theSpeed.setItems(thePickerItems)
 
-    override func willActivate() {
+    }
+    
+    @IBAction func recordSpeed()
+    {
+        Singleton.mbpsSpeed = "\(self.theSpeed)"
+    }
+    override func willActivate()
+    {
         // This method is called when watch view controller is about to be visible to user
-        super.willActivate()
     }
 
     override func didDeactivate() {

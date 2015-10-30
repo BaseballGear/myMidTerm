@@ -1,16 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MidTerm_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="148" alignment="left" layout="vertical" id="tbe-iz-oW4">
+                            <items>
+                                <button width="1" alignment="left" title="Speed Results" id="azK-I2-AbZ">
+                                    <connections>
+                                        <action selector="recordSpeed" destination="AgC-eL-Hgc" id="arr-0S-XA0"/>
+                                        <segue destination="V85-3G-JJ0" kind="push" id="bGv-de-O7e"/>
+                                    </connections>
+                                </button>
+                                <picker width="1" height="100" alignment="left" id="dUh-Ll-S5X"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="theSpeed" destination="dUh-Ll-S5X" id="AOC-o7-tXI"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Speed Result-->
+        <scene sceneID="fM0-gV-djw">
+            <objects>
+                <controller hidesWhenLoading="NO" id="V85-3G-JJ0" customClass="speedResult" customModule="MidTerm_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="150" alignment="left" layout="vertical" id="yw7-dx-p0j">
+                            <items>
+                                <label alignment="center" text="Mbps: " id="pvp-Hf-dpr"/>
+                                <table alignment="left" id="zmy-EF-ZE0">
+                                    <items>
+                                        <tableRow identifier="cell" id="flB-qE-BzD">
+                                            <group key="rootItem" width="1" alignment="left" id="afi-vj-8C7">
+                                                <items>
+                                                    <label alignment="left" verticalAlignment="center" id="OSJ-Jj-bef"/>
+                                                </items>
+                                            </group>
+                                        </tableRow>
+                                    </items>
+                                </table>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="speedLabel" destination="pvp-Hf-dpr" id="zfV-GI-tGs"/>
+                        <outlet property="theTable" destination="zmy-EF-ZE0" id="HBV-uX-CSi"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="473" y="347"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -31,7 +78,7 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="MidTerm_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
